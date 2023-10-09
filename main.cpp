@@ -79,6 +79,7 @@ int main() {
     savings.deposit(200.0);
     savings.applyInterest();
     savings.display();
+    cout<<endl;
 
     checking.display();
     checking.withdraw(700.0);
